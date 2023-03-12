@@ -1,0 +1,6 @@
+<plugins>
+    <plugin name="UWP Lint" id="UWP Lint" url="http://localhost:8080/market/plugins/UWP Lint.jar"
+            version="1.0"/>
+    <plugin name="Superbench" id="Superbench" url="http://localhost:8080/market/plugins/Superbench.jar"
+            version="1.1"/>
+</plugins>
