@@ -1,5 +1,6 @@
 package com.angel.pluginmarket.controller;
 
+import io.swagger.annotations.Api;
 import org.springframework.core.io.InputStreamResource;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
@@ -12,6 +13,7 @@ import java.io.FileInputStream;
 import java.io.InputStream;
 
 @RestController
+@Api(tags = "插件市场")
 @RequestMapping("/market")
 public class MarketController {
     @GetMapping("/plugins/{file}")
